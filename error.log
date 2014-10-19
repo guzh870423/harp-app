@@ -1,0 +1,528 @@
+Buildfile: /home/zhenghao/git/harp-project/harp-app/build.xml
+
+clean:
+   [delete] Deleting directory /home/zhenghao/git/harp-project/harp-app/build
+
+yarncompile:
+    [mkdir] Created dir: /home/zhenghao/git/harp-project/harp-app/build/classes
+    [javac] /home/zhenghao/git/harp-project/harp-app/build.xml:51: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 61 source files to /home/zhenghao/git/harp-project/harp-app/build/classes
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:45: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.IntVertexID;
+    [javac]                         ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: package edu.iu.harp.graph
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:50: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxPartition;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:51: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxTable;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:54: error: cannot find symbol
+    [javac] import edu.iu.harp.util.Int2ObjectReuseHashMap;
+    [javac]                        ^
+    [javac]   symbol:   class Int2ObjectReuseHashMap
+    [javac]   location: package edu.iu.harp.util
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:55: error: cannot find symbol
+    [javac] import edu.iu.harp.util.Long2ObjectReuseHashMap;
+    [javac]                        ^
+    [javac]   symbol:   class Long2ObjectReuseHashMap
+    [javac]   location: package edu.iu.harp.util
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:228: error: cannot find symbol
+    [javac]     IntFltArrVtxTable allGraphLayout) {
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:227: error: cannot find symbol
+    [javac]   private IntFltArrVtxPartition[] getGraphLayoutPartitions(
+    [javac]           ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:238: error: cannot find symbol
+    [javac]   private int getTotalVtxPartitions(IntFltArrVtxTable table,
+    [javac]                                     ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:275: error: cannot find symbol
+    [javac]   private void storeGraphLayout(IntFltArrVtxTable allGraphLayout,
+    [javac]                                 ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:298: error: cannot find symbol
+    [javac]   private void resetSgDisps(IntFltArrVtxTable sgDisps) {
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:370: error: cannot find symbol
+    [javac]     OutEdgeTable<IntVertexID, NullEdgeVal> outEdgeTable, String fileName,
+    [javac]                  ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:397: error: cannot find symbol
+    [javac]   public void generateSgDisps(IntFltArrVtxTable sgDisps,
+    [javac]                               ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:398: error: cannot find symbol
+    [javac]     OutEdgeTable<IntVertexID, NullEdgeVal> outEdgeTable) {
+    [javac]                  ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:415: error: cannot find symbol
+    [javac]   public void bcastAllGraphLayout(IntFltArrVtxTable allGraphLayout,
+    [javac]                                   ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:446: error: cannot find symbol
+    [javac]   private void loadAllGraphLayout(IntFltArrVtxTable allGraphLayout,
+    [javac]                                   ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:25: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxPartition;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:26: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxTable;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:27: error: cannot find symbol
+    [javac] import edu.iu.harp.util.Int2ObjectReuseHashMap;
+    [javac]                        ^
+    [javac]   symbol:   class Int2ObjectReuseHashMap
+    [javac]   location: package edu.iu.harp.util
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:34: error: cannot find symbol
+    [javac] public class FRTask1 extends Task<IntFltArrVtxPartition, Null> {
+    [javac]                                   ^
+    [javac]   symbol: class IntFltArrVtxPartition
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:36: error: cannot find symbol
+    [javac]   private IntFltArrVtxTable allGraphLayout;
+    [javac]           ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:37: error: cannot find symbol
+    [javac]   private IntFltArrVtxPartition[] glPartitions;
+    [javac]           ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:41: error: cannot find symbol
+    [javac]   public FRTask1(IntFltArrVtxTable allGraphLayout,
+    [javac]                  ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:42: error: cannot find symbol
+    [javac]     IntFltArrVtxPartition[] glPartitions, double ks, double area) {
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:50: error: cannot find symbol
+    [javac]   public Null run(IntFltArrVtxPartition sgPartition) throws Exception {
+    [javac]                   ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:25: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.IntVertexID;
+    [javac]                         ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: package edu.iu.harp.graph
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:27: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxTable;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:30: error: cannot find symbol
+    [javac]   Task<EdgePartition<IntVertexID, NullEdgeVal>, Null> {
+    [javac]                      ^
+    [javac]   symbol: class IntVertexID
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:35: error: cannot find symbol
+    [javac]   private IntFltArrVtxTable allGraphLayout;
+    [javac]           ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:36: error: cannot find symbol
+    [javac]   private IntFltArrVtxTable sgDisps;
+    [javac]           ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:39: error: cannot find symbol
+    [javac]   public FRTask2(IntFltArrVtxTable graphLayout, IntFltArrVtxTable disps,
+    [javac]                  ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:39: error: cannot find symbol
+    [javac]   public FRTask2(IntFltArrVtxTable graphLayout, IntFltArrVtxTable disps,
+    [javac]                                                 ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:47: error: cannot find symbol
+    [javac]   public Null run(EdgePartition<IntVertexID, NullEdgeVal> partition)
+    [javac]                                 ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:21: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxPartition;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:22: error: cannot find symbol
+    [javac] import edu.iu.harp.graph.vtx.IntFltArrVtxTable;
+    [javac]                             ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: package edu.iu.harp.graph.vtx
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:23: error: cannot find symbol
+    [javac] import edu.iu.harp.util.Int2ObjectReuseHashMap;
+    [javac]                        ^
+    [javac]   symbol:   class Int2ObjectReuseHashMap
+    [javac]   location: package edu.iu.harp.util
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:25: error: cannot find symbol
+    [javac] public class FRTask3 extends Task<IntFltArrVtxPartition, IntFltArrVtxPartition> {
+    [javac]                                   ^
+    [javac]   symbol: class IntFltArrVtxPartition
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:25: error: cannot find symbol
+    [javac] public class FRTask3 extends Task<IntFltArrVtxPartition, IntFltArrVtxPartition> {
+    [javac]                                                          ^
+    [javac]   symbol: class IntFltArrVtxPartition
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:27: error: cannot find symbol
+    [javac]   private IntFltArrVtxTable allGraphLayout;
+    [javac]           ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask3
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:30: error: cannot find symbol
+    [javac]   public FRTask3(IntFltArrVtxTable graphLayout, double t) {
+    [javac]                  ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRTask3
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:36: error: cannot find symbol
+    [javac]   public IntFltArrVtxPartition run(IntFltArrVtxPartition sgPartition)
+    [javac]                                    ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRTask3
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:36: error: cannot find symbol
+    [javac]   public IntFltArrVtxPartition run(IntFltArrVtxPartition sgPartition)
+    [javac]          ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRTask3
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/AvgDistCalcTask.java:21: error: cannot find symbol
+    [javac] import edu.iu.harp.comm.data.ShortArray;
+    [javac]                             ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: package edu.iu.harp.comm.data
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/RowData.java:21: error: cannot find symbol
+    [javac] import edu.iu.harp.comm.data.ShortArray;
+    [javac]                             ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: package edu.iu.harp.comm.data
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/RowData.java:31: error: cannot find symbol
+    [javac]   ShortArray distArray;
+    [javac]   ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: class RowData
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/BCCalcTask.java:26: error: cannot find symbol
+    [javac] import edu.iu.harp.comm.data.FloatArray;
+    [javac]                             ^
+    [javac]   symbol:   class FloatArray
+    [javac]   location: package edu.iu.harp.comm.data
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/BCCalcTask.java:27: error: cannot find symbol
+    [javac] import edu.iu.harp.comm.data.ShortArray;
+    [javac]                             ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: package edu.iu.harp.comm.data
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/BCCalcTask.java:78: error: cannot find symbol
+    [javac]   void calculateBC(ShortArray distArray, DoubleArray weightArray,
+    [javac]                    ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: class BCCalcTask
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/BCCalcTask.java:104: error: cannot find symbol
+    [javac]     ShortArray distArray, DoubleArray weightArray, DoubleArray bofZ, int row,
+    [javac]     ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: class BCCalcTask
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/CalcUtil.java:25: error: cannot find symbol
+    [javac] import edu.iu.harp.comm.data.FloatArray;
+    [javac]                             ^
+    [javac]   symbol:   class FloatArray
+    [javac]   location: package edu.iu.harp.comm.data
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/CalcUtil.java:265: error: cannot find symbol
+    [javac]   public static void matrixMultiply(FloatArray A,
+    [javac]                                     ^
+    [javac]   symbol:   class FloatArray
+    [javac]   location: class CalcUtil
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/DataFileUtil.java:40: error: cannot find symbol
+    [javac] import edu.iu.harp.comm.data.ShortArray;
+    [javac]                             ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: package edu.iu.harp.comm.data
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/benchmark/BenchmarkMapper.java:94: error: cannot find symbol
+    [javac]           allgatherOne(arrTable);
+    [javac]           ^
+    [javac]   symbol:   method allgatherOne(ArrTable<DoubleArray,DoubleArrPlus>)
+    [javac]   location: class BenchmarkMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/benchmark/BenchmarkMapper.java:147: error: cannot find symbol
+    [javac]           allgatherTotalKnown(arrTable, realNumPartitions);
+    [javac]           ^
+    [javac]   symbol:   method allgatherTotalKnown(ArrTable<DoubleArray,DoubleArrPlus>,int)
+    [javac]   location: class BenchmarkMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:109: error: cannot find symbol
+    [javac]     OutEdgeTable<IntVertexID, NullEdgeVal> outEdgeTable = new OutEdgeTable<IntVertexID, NullEdgeVal>(
+    [javac]                  ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:109: error: cannot find symbol
+    [javac]     OutEdgeTable<IntVertexID, NullEdgeVal> outEdgeTable = new OutEdgeTable<IntVertexID, NullEdgeVal>(
+    [javac]                                                                            ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:110: error: cannot find symbol
+    [javac]       getNextTableID(), maxNumPartitions, 1000000, IntVertexID.class,
+    [javac]                                                    ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:132: error: cannot find symbol
+    [javac]     IntFltArrVtxTable sgDisps = new IntFltArrVtxTable(getNextTableID(),
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:132: error: cannot find symbol
+    [javac]     IntFltArrVtxTable sgDisps = new IntFltArrVtxTable(getNextTableID(),
+    [javac]                                     ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:136: error: cannot find symbol
+    [javac]     for (IntFltArrVtxPartition partition : sgDisps.getPartitions()) {
+    [javac]          ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:143: error: cannot find symbol
+    [javac]     IntFltArrVtxTable allGraphLayout = new IntFltArrVtxTable(getNextTableID(),
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:143: error: cannot find symbol
+    [javac]     IntFltArrVtxTable allGraphLayout = new IntFltArrVtxTable(getNextTableID(),
+    [javac]                                            ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:147: error: cannot find symbol
+    [javac]     masterBarrier();
+    [javac]     ^
+    [javac]   symbol:   method masterBarrier()
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:152: error: cannot find symbol
+    [javac]     IntFltArrVtxTable newGraphLayout = null;
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:164: error: cannot find symbol
+    [javac]     IntFltArrVtxPartition[] glPartitions = null;
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:183: error: cannot find symbol
+    [javac]       newGraphLayout = new IntFltArrVtxTable(getNextTableID(),
+    [javac]                            ^
+    [javac]   symbol:   class IntFltArrVtxTable
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:185: error: cannot find symbol
+    [javac]       List<IntFltArrVtxPartition> newGlPartitions = doTasks(
+    [javac]            ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:188: error: cannot find symbol
+    [javac]       for (IntFltArrVtxPartition partition : newGlPartitions) {
+    [javac]            ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:192: error: cannot find symbol
+    [javac]       for (IntFltArrVtxPartition partition : allGraphLayout.getPartitions()) {
+    [javac]            ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:213: error: cannot find symbol
+    [javac]       for (IntFltArrVtxPartition partition : allGraphLayout.getPartitions()) {
+    [javac]            ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:231: error: cannot find symbol
+    [javac]     IntFltArrVtxPartition[] glPartitions = allGraphLayout.getPartitions();
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:264: error: cannot find symbol
+    [javac]       allgatherOne(arrTable);
+    [javac]       ^
+    [javac]   symbol:   method allgatherOne(ArrTable<DoubleArray,DoubleArrPlus>)
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:299: error: cannot find symbol
+    [javac]     IntFltArrVtxPartition[] partitions = sgDisps.getPartitions();
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:300: error: cannot find symbol
+    [javac]     Int2ObjectReuseHashMap<float[]> map = null;
+    [javac]     ^
+    [javac]   symbol:   class Int2ObjectReuseHashMap
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:301: error: cannot find symbol
+    [javac]     for (IntFltArrVtxPartition partition : partitions) {
+    [javac]          ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:313: error: package Long2ObjectReuseHashMap does not exist
+    [javac]       for (Long2ObjectReuseHashMap.Entry<double[]> entry : partition
+    [javac]                                   ^
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:377: error: cannot find symbol
+    [javac]     IntVertexID sourceID = new IntVertexID();
+    [javac]     ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:377: error: cannot find symbol
+    [javac]     IntVertexID sourceID = new IntVertexID();
+    [javac]                                ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:378: error: cannot find symbol
+    [javac]     IntVertexID targetID = new IntVertexID();
+    [javac]     ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:378: error: cannot find symbol
+    [javac]     IntVertexID targetID = new IntVertexID();
+    [javac]                                ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:400: error: cannot find symbol
+    [javac]     IntVertexID vtxID = null;
+    [javac]     ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:402: error: cannot find symbol
+    [javac]       for (EdgePartition<IntVertexID, NullEdgeVal> partition : outEdgeTable
+    [javac]                          ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRCollectiveMapper.java:430: error: cannot find symbol
+    [javac]     for (IntFltArrVtxPartition partition : allGraphLayout.getPartitions()) {
+    [javac]          ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:53: error: cannot find symbol
+    [javac]     IntFltArrVtxPartition[] glPartitions = this.glPartitions;
+    [javac]     ^
+    [javac]   symbol:   class IntFltArrVtxPartition
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask1.java:77: error: cannot find symbol
+    [javac]     Int2ObjectReuseHashMap<float[]> sgGLMap = allGraphLayout.getPartition(
+    [javac]     ^
+    [javac]   symbol:   class Int2ObjectReuseHashMap
+    [javac]   location: class FRTask1
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:57: error: cannot find symbol
+    [javac]     IntVertexID srcID = null;
+    [javac]     ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask2.java:58: error: cannot find symbol
+    [javac]     IntVertexID tgtID = null;
+    [javac]     ^
+    [javac]   symbol:   class IntVertexID
+    [javac]   location: class FRTask2
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/frlayout/FRTask3.java:43: error: cannot find symbol
+    [javac]     Int2ObjectReuseHashMap<float[]> sgMap = sgPartition.getVertexMap();
+    [javac]     ^
+    [javac]   symbol:   class Int2ObjectReuseHashMap
+    [javac]   location: class FRTask3
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/kmeans/KMeansCollectiveMapper.java:147: error: method doTasks in class CollectiveMapper<KEYIN,VALUEIN,KEYOUT,VALUEOUT> cannot be applied to given types;
+    [javac]       doTasks(cenPartitions, "centroids-dot-product", new CenDotProductTask(
+    [javac]       ^
+    [javac]   required: List<I>,String,T,int
+    [javac]   found: ArrPartition<DoubleArray>[],String,CenDotProductTask,int
+    [javac]   reason: no instance(s) of type variable(s) I,O,T exist so that argument type ArrPartition<DoubleArray>[] conforms to formal parameter type List<I>
+    [javac]   where I,O,T,KEYIN,VALUEIN,KEYOUT,VALUEOUT are type-variables:
+    [javac]     I extends Object declared in method <I,O,T>doTasks(List<I>,String,T,int)
+    [javac]     O extends Object declared in method <I,O,T>doTasks(List<I>,String,T,int)
+    [javac]     T extends Task<I,O> declared in method <I,O,T>doTasks(List<I>,String,T,int)
+    [javac]     KEYIN extends Object declared in class CollectiveMapper
+    [javac]     VALUEIN extends Object declared in class CollectiveMapper
+    [javac]     KEYOUT extends Object declared in class CollectiveMapper
+    [javac]     VALUEOUT extends Object declared in class CollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/kmeans/KMeansCollectiveMapper.java:168: error: method doTasks in class CollectiveMapper<KEYIN,VALUEIN,KEYOUT,VALUEOUT> cannot be applied to given types;
+    [javac]       doTasks(cenPartitions, "centroids-merge", new CenMergeTask(
+    [javac]       ^
+    [javac]   required: List<I>,String,T,int
+    [javac]   found: ArrPartition<DoubleArray>[],String,CenMergeTask,int
+    [javac]   reason: no instance(s) of type variable(s) I,O,T exist so that argument type ArrPartition<DoubleArray>[] conforms to formal parameter type List<I>
+    [javac]   where I,O,T,KEYIN,VALUEIN,KEYOUT,VALUEOUT are type-variables:
+    [javac]     I extends Object declared in method <I,O,T>doTasks(List<I>,String,T,int)
+    [javac]     O extends Object declared in method <I,O,T>doTasks(List<I>,String,T,int)
+    [javac]     T extends Task<I,O> declared in method <I,O,T>doTasks(List<I>,String,T,int)
+    [javac]     KEYIN extends Object declared in class CollectiveMapper
+    [javac]     VALUEIN extends Object declared in class CollectiveMapper
+    [javac]     KEYOUT extends Object declared in class CollectiveMapper
+    [javac]     VALUEOUT extends Object declared in class CollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/kmeans/KMeansCollectiveMapper.java:194: error: cannot find symbol
+    [javac]       logMemUsage();
+    [javac]       ^
+    [javac]   symbol:   method logMemUsage()
+    [javac]   location: class KMeansCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/kmeans/KMeansCollectiveMapper.java:195: error: cannot find symbol
+    [javac]       logGCTime();
+    [javac]       ^
+    [javac]   symbol:   method logGCTime()
+    [javac]   location: class KMeansCollectiveMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/kmeans/KMeansCollectiveMapper.java:318: error: cannot find symbol
+    [javac]       success = arrTableBcastTotalKnown(table, numTotalPartitions);
+    [javac]                 ^
+    [javac]   symbol:   method arrTableBcastTotalKnown(ArrTable<A,C>,int)
+    [javac]   location: class KMeansCollectiveMapper
+    [javac]   where A,T,C are type-variables:
+    [javac]     A extends Array<T> declared in method <T,A,C>bcastCentroids(ArrTable<A,C>,int)
+    [javac]     T extends Object declared in method <T,A,C>bcastCentroids(ArrTable<A,C>,int)
+    [javac]     C extends ArrCombiner<A> declared in method <T,A,C>bcastCentroids(ArrTable<A,C>,int)
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/AvgDistCalcTask.java:34: error: cannot find symbol
+    [javac]     ShortArray distArray = rowData.distArray;
+    [javac]     ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: class AvgDistCalcTask
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/DataFileUtil.java:152: error: cannot find symbol
+    [javac]       ShortArray distArray = new ShortArray();
+    [javac]       ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: class DataFileUtil
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/DataFileUtil.java:152: error: cannot find symbol
+    [javac]       ShortArray distArray = new ShortArray();
+    [javac]                                  ^
+    [javac]   symbol:   class ShortArray
+    [javac]   location: class DataFileUtil
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/WDAMDSMapper.java:134: error: cannot find symbol
+    [javac]     logMemUsage();
+    [javac]     ^
+    [javac]   symbol:   method logMemUsage()
+    [javac]   location: class WDAMDSMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/WDAMDSMapper.java:135: error: cannot find symbol
+    [javac]     logGCTime();
+    [javac]     ^
+    [javac]   symbol:   method logGCTime()
+    [javac]   location: class WDAMDSMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/WDAMDSMapper.java:227: error: cannot find symbol
+    [javac]           logMemUsage();
+    [javac]           ^
+    [javac]   symbol:   method logMemUsage()
+    [javac]   location: class WDAMDSMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/WDAMDSMapper.java:228: error: cannot find symbol
+    [javac]           logGCTime();
+    [javac]           ^
+    [javac]   symbol:   method logGCTime()
+    [javac]   location: class WDAMDSMapper
+    [javac] /home/zhenghao/git/harp-project/harp-app/src/edu/iu/wdamds/WDAMDSMapper.java:281: error: cannot find symbol
+    [javac]         logMemUsage();
+    [javac]         ^
+    [javac]   symbol:   method logMemUsage()
+    [javac]   location: class WDAMDSMapper
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 100 errors
